@@ -1,0 +1,11 @@
+@import './base/fonts.scss';
+@import './base/variables.scss';
+@import './base/normalize.scss';
+
+@import './base/base.scss';
+
+@import 'header.scss';
+@import 'page--first.scss';
+@import 'page--second.scss';
+@import 'page--third.scss';
+@import 'footer.scss';

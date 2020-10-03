@@ -1,0 +1,72 @@
+.content {
+    display: flex;
+    justify-content: center;
+    color: $grey;
+}
+
+.header__main {
+    position: relative;
+    width: 50%;
+    // display: flex;
+    // align-items: flex-end;
+}
+
+.animation {
+    width: 50%;
+}
+
+.block--pink {
+    position: absolute;
+    width: 420px;
+    height: 300px;
+    right: 0;
+    background-color: $pink;
+    z-index: -1;
+}
+
+.skills__list {
+    color: $pink;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+.skills__item {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.representation {
+    background-color: $dark-grey;
+    height: 390px;
+    width: 240px;
+    z-index: 1;
+    margin-top: 80px;
+    position: relative;
+    overflow: visible;
+    padding: 128px 20px 0px 20px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 32px;
+    position: absolute;
+    left: 116px;
+    display: inline-block;
+    width: 400px;
+    top: 54px;
+}
+
+.order__btn {
+    background-color: $pink;
+    border: none;
+    font-size: 20px;
+    padding: 30px 50px;
+}
+
+.card {
+    position: absolute;
+    right: 0;
+    transform: translateY(-100%);
+}

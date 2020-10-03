@@ -1,0 +1,134 @@
+extends ./layout.pug
+
+block var
+    - var title = "Portfolio"
+
+block content
+    .wrapper
+        .container
+            section.page.page--first
+                header.header
+                    #language__block.language__block
+                        nav.language__nav
+                            ul.language__list
+                                li.language__item.language__item--active En
+                                li.language__item Ua
+                                li.language__item Ru
+                        svg.list__arrow(width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg")
+                            path(d="M10.585 0.9104L6 4.73122L1.41502 0.9104L0 2.08954L6 7.08954L12 2.08954L10.585 0.9104Z" fill="#7C7C7C")
+                    nav.menu__nav
+                        ul.menu__list
+                            li.menu__item About
+                            li.menu__item Skill
+                            li.menu__item Project
+                            li.menu__item Contact me
+                .content
+                    header.header__main
+                        .block--pink
+                        .representation
+                            h1.title Front-end Developer
+                            ul.skills__list
+                                li.skills__item 1 year experience
+                                li.skills__item Strict adherence to deadlines
+                                li.skills__item Strict adherence to deadlines
+                        .card 
+                            button.order__btn Order a project
+                    .animation
+                        include ./animation
+                .down-arrow__block
+                    svg(width="30" height="17" viewBox="0 0 30 17" fill="none" xmlns="http://www.w3.org/2000/svg")
+                        path(d="M26.4625 0.967163L15 10.8606L3.53754 0.967163L0 4.02038L15 16.9672L30 4.02038L26.4625 0.967163Z" fill="#7C7C7C")
+            section.page.page--second
+                header
+                    h2.title--second Projects
+                div.slider.project__list
+                    div.project__item
+                        .preview__container
+                            img.preview__img(src="./images/proj_1.png")
+                        .project__content
+                            h4.project__title Bars
+                            .project__desc 
+                                p There is an description of project
+                                p Составление описания сайта является одним из самых важных этапов SEO оптимизации. Описание сайта должно включать в себя слова и фразы котрые используются при составлении семантического ядра сайта. Описание применяется как непосредственно на самом сайте, так и для размещения в каталогах, поисковых системах, порталах. Собственно грамотно составленное описание сайта и размещенное на ресурсах сети и привлекает посетителей и индексируется поисковыми системами, что повышает позиции в выдаче поисковыми системами.
+                                p Составление описания сайта является одним из самых важных этапов SEO оптимизации. Описание сайта должно включать в себя слова и фразы котрые используются при составлении семантического ядра сайта. Описание применяется как непосредственно на самом сайте, так и для размещения в каталогах, поисковых системах, порталах. Собственно грамотно составленное описание сайта и размещенное на ресурсах сети и привлекает посетителей и индексируется поисковыми системами, что повышает позиции в выдаче поисковыми системами.
+                        a.button.project__link(href="#") View project
+                    div.project__item
+                        img.preview__img(src="./images/proj_2.png")
+                        .project__content
+                            h4.project__title Bars
+                            .project__desc 
+                                p There is an description of project
+                        a.button.project__link(href="#") View project
+                    div.project__item
+                        img.preview__img(src="./images/proj_3.png")
+                        .project__content
+                            h4.project__title Bars
+                            .project__desc 
+                                p There is an description of project
+                                p Составление описания сайта является одним из самых важных этапов SEO оптимизации. Описание сайта должно включать в себя слова и фразы котрые используются при составлении семантического ядра сайта. Описание применяется как непосредственно на самом сайте, так и для размещения в каталогах, поисковых системах, порталах. Собственно грамотно составленное описание сайта и размещенное на ресурсах сети и привлекает посетителей и индексируется поисковыми системами, что повышает позиции в выдаче поисковыми системами.
+                                p Составление описания сайта является одним из самых важных этапов SEO оптимизации. Описание сайта должно включать в себя слова и фразы котрые используются при составлении семантического ядра сайта. Описание применяется как непосредственно на самом сайте, так и для размещения в каталогах, поисковых системах, порталах. Собственно грамотно составленное описание сайта и размещенное на ресурсах сети и привлекает посетителей и индексируется поисковыми системами, что повышает позиции в выдаче поисковыми системами.
+                        a.button.project__link(href="#") View project
+                    div.project__item
+                        img.preview__img(src="./images/proj_4.png")
+                        .project__content
+                            h4.project__title Bars
+                            .project__desc 
+                                p There is an description of project
+                                p Составление описания сайта является одним из самых важных этапов SEO оптимизации. Описание сайта должно включать в себя слова и фразы котрые используются при составлении семантического ядра сайта. Описание применяется как непосредственно на самом сайте, так и для размещения в каталогах, поисковых системах, порталах. Собственно грамотно составленное описание сайта и размещенное на ресурсах сети и привлекает посетителей и индексируется поисковыми системами, что повышает позиции в выдаче поисковыми системами.
+                                p Составление описания сайта является одним из самых важных этапов SEO оптимизации. Описание сайта должно включать в себя слова и фразы котрые используются при составлении семантического ядра сайта. Описание применяется как непосредственно на самом сайте, так и для размещения в каталогах, поисковых системах, порталах. Собственно грамотно составленное описание сайта и размещенное на ресурсах сети и привлекает посетителей и индексируется поисковыми системами, что повышает позиции в выдаче поисковыми системами.
+                        a.button.project__link(href="#") View project
+                    div.project__item
+                        img.preview__img(src="./images/proj_5.png")
+                        .project__content
+                            h4.project__title Bars
+                            .project__desc 
+                                p There is an description of project
+                        a.button.project__link(href="#") View project
+                    div.project__item
+                        img.preview__img(src="./images/proj_6.png")
+                        .project__content
+                            h4.project__title Bars
+                            .project__desc 
+                                p There is an description of project
+                        a.button.project__link(href="#") View project
+            section.page.page--third
+                header
+                    h2.title--third Leave Request
+                .page__content
+                    .form__container
+                        form(action="#").form__request
+                            input(type="text", name="name", id="input__name", placeholder="Your Name").form__input.form__input--name
+                            input(type="text", name="phone", id="input__phone", placeholder="Your Phone").form__input.form__input--phone
+                            input(type="text", name="project", id="input__project", placeholder="Name Of Your Project").form__input.form__input--project
+                            button(type="submit").button.request__button Send Request
+                    .animation__container
+            section.page.page--fourth
+            section.page.page--fifth
+            footer.footer
+                .footer__info
+                    .sections__to-link
+                        ul.section__list.section__list--main
+                            li.section__item About
+                            li.section__item Skills
+                            li.section__item Projects
+                            li.section__item Contact me
+                        ul.section__list.section__list--sub
+                            li.section__item Blog
+                            li.section__item Frequently asked questions
+                            li.section__item Marharyta Andriukhina
+                    .contacts__container
+                        ul.social__list
+                            li.social__item
+                                a(href="https://www.instagram.com/marharita_andr/")
+                                    img(src="../images/social/icon-instagram.svg", alt="instagram link", srcset="")
+                            li.social__item
+                                a(href="https://www.linkedin.com/in/%D0%BC%D0%B0%D1%80%D0%B3%D0%B0%D1%80%D0%B8%D1%82%D0%B0-%D0%B0%D0%BD%D0%B4%D1%80%D1%8E%D1%85%D0%B8%D0%BD%D0%B0-a18aa8187/")
+                                    img(src="../images/social/icon-linkedin.svg", alt="linkedin link", srcset="")
+                            li.social__item
+                                a(href="https://www.facebook.com/profile.php?id=100010774866513")
+                                    img(src="../images/social/icon-facebook.svg", alt="facebook link", srcset="")
+                        .contacts__phone
+                            p Call +380994334823
+                            p Marharyta Andriukhina
+                .disclaimer
+                    p Created by Margarita Andriukhina in 2020. Please don’t copy this site!

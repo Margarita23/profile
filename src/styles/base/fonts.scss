@@ -1,0 +1,36 @@
+$mon__path: '../../fonts/Montserrat/Montserrat-';
+
+@font-face {
+    font-family: 'mon-black';
+    src: url('#{$mon__path}Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mon-bold';
+    src: url('#{$mon__path}Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mon-italic';
+    src: url('#{$mon__path}Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mon-light';
+    src: url('#{$mon__path}Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mon-roman';
+    src: url('#{$mon__path}Roman.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mon-thin';
+    src: url('#{$mon__path}Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mon-ultraLight';
+    src: url('#{$mon__path}UltraLight.ttf') format('truetype');
+}

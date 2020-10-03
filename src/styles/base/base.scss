@@ -1,0 +1,16 @@
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 1040px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.down-arrow__block {
+    position: absolute;
+    left: 50%;
+    transition: translateX(-50%);
+}
